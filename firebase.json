@@ -1,0 +1,55 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "quick-bee-app",
+          "appId": "1:699843477834:android:37ff40a82b1f44b076c1b3",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "quick-bee-app",
+          "appId": "1:699843477834:ios:aa8486a000701b9576c1b3",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "quick-bee-app",
+          "appId": "1:699843477834:ios:48a6da76cf0d2fcd76c1b3",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "quick-bee-app",
+          "configurations": {
+            "android": "1:699843477834:android:37ff40a82b1f44b076c1b3",
+            "ios": "1:699843477834:ios:aa8486a000701b9576c1b3",
+            "macos": "1:699843477834:ios:48a6da76cf0d2fcd76c1b3",
+            "web": "1:699843477834:web:65f8c3ca45cd7cd376c1b3",
+            "windows": "1:699843477834:web:3d622558353f9ee376c1b3"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

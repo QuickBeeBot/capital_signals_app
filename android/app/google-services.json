@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "264168183063",
+    "project_id": "capital-signals",
+    "storage_bucket": "capital-signals.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264168183063:android:5263efb4aaaa9bf13b1352",
+        "android_client_info": {
+          "package_name": "com.gsd.capital_signals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "264168183063-4u4qpmu4h0hhcjkurgnlkh6gjpettun4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkjY6_mYORPyN78C7MPYdJUU2lrORGkgs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "264168183063-4u4qpmu4h0hhcjkurgnlkh6gjpettun4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
